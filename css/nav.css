@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+.botton {
+    text-align: center;
+    font-family: YouYuan;
+    color: #E6DDD2;
+    background-color: #B5ADA7;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bolder;
+    margin-top: 10px;
+}

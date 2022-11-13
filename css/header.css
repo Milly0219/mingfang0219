@@ -1,0 +1,105 @@
+#backtotop{
+    display:scroll;
+    position:fixed;
+    bottom:5px;
+    right:15px;
+} 
+
+*{
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: #DDD3C6;
+}
+
+header{
+    border-radius:15px;
+    margin:0 auto;
+    background-color: #F0ECEC; 
+    height:300px; width:900px;
+    box-shadow:10px 10px 4px #C1B9B9;
+    background-image: url(/img/small.jpg);
+    background-size: cover;
+    
+}
+
+a{
+    font-size: 20px;
+}
+
+.main_picture
+{
+    width: 190px;
+    height: 220px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.name{
+    display: inline-block;
+    letter-spacing: 0.3em;
+    font-family:YouYuan; 
+    border-width: 3px; 
+    border-color:#B89E8A;
+    margin: 30px 0px 0px;
+   
+
+}
+
+.Eng{
+    font-family:Comic Sans MS;
+    color: #767676;  
+}
+
+.birthday{
+    font-family:Verdana;
+    color: #BDA593  ;
+    
+}
+
+
+.introduce{
+    font-family:YouYuan;
+    font-size: 20px;
+    color: #9B8F86;
+    font-weight: bolder;
+ 
+}
+
+.sentence{
+    font-family:Comic Sans MS;
+    color:  #98816A;
+    font-size: 25px;
+}
+
+.fb{
+    position:absolute;
+    top:50px;
+    right:150px;
+    height: 40px;
+    width: 40px;
+}
+
+.ig{
+    position:absolute;
+    top:100px;
+    right:150px;
+    height: 40px;
+    width: 40px;
+}
+
+.gmail{
+    position:absolute;
+    top:150px;
+    right:150px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+

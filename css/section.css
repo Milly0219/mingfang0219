@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+/*技能*/
+.section1,
+.section2 {
+    width: 500px;
+    margin: auto;
+  }
+
+.section1 {
+    float: left;
+    margin: 0px 50px;
+    
+}
+
+.section2 {
+    float: right;
+    margin:0px 40px 0px 0px;
+}
+
+
+.Skill-2 {
+    background-color: #F0ECEC;
+    border-radius: 15px;
+    border-style: none;
+    align-content: center;
+    padding: 20px;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    background-color: #AE9D90;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.progress {
+    width: 100%;
+    height: 26px;
+    border-style: solid;
+    border-color: #dad0d0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: blanchedalmond;
+    border-radius: 7px;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    text-align: right;
+
+}
+
+.progress:hover>.progress-bar {
+    animation: moving 3s forwards cubic-bezier(0.5, 1.18, 0.89, 1.01);
+}
+
+@keyframes moving {
+    0% {
+        width: 10%;
+    }
+
+}
+
+/*#C{
+        width: 90%;
+        animation-name:progress-barC;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }*/
+
+.clearfix {
+    clear: both;
+}
+
+/*學歷*/
+.school{
+    max-width: 92%;
+    background-color: #F5EBEB;
+    border-radius: 15px;
+    border-style: none;
+    padding: 15px;
+    margin:auto;
+}
+
+
+
+.s1{
+    font-size: 24px;
+    margin: 10px 50px;
+    
+}
+
+.img1{
+    position: relative;
+    margin: 0px 25px;
+    width: 200px;
+    height:200px;
+    border: none;
+}
+
+/*系排*/
+.E1{
+    width: 92%;
+    background-color: #F5EBEB;
+    border-radius: 15px;
+    border-style: none;
+    margin:auto;
+    margin: 0px 50px;
+    padding-bottom: 20px;
+
+
+}
+
+.img2{
+    margin: 0px 0px 0px 40px;
+    width: 450px;
+    height:300px;
+    border-radius: 10px;
+
+}
+
+.feel{
+   display: inline;
+   float: right;
+   background-color: antiquewhite;
+   border-radius: 15px;
+   width: 500px;
+   margin:0px 30px 0px 0px;
+   border-style: dashed;
+   border-color: #9B8F86;
+ 
+}
+
+.text{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 10px 0px 20px;
+    
+}
+
+.girl{
+   padding: 30px 0px 10px 0px;
+}
+
+.course{
+  padding: 30px 0px 10px 0px;
+}
+
+.eggroll{
+  width: 230px;
+  height: 300px;
+  margin-left: 20px;
+}
+
+
+.interview{
+  margin: 0px 0px 0px 40px;
+  width: 450px;
+  height:300px;
+  border-radius: 10px;
+
+}
+
+.manage{
+  margin: 0px 0px 0px 40px;
+  width: 450px;
+  height:300px;
+  border-radius: 10px;
+}
+
+  
+  /*證照 */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+  }
+
+  .contents {
+    background-color: #F5EBEB;
+    padding: 30px;
+    margin-bottom:0px;
+    border-radius: 15px;
+    min-height: 700px;
+    
+  }
+  
+  
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #FEEFDD;
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+   
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+
+
+  .pic2{
+    margin:10px 20px 0px 50px;
+    color:#AC6B6B;
+    font-size: 20px;
+  }
+  
+  
+  .frame{
+    margin:auto;
+    margin-top: 40px;
+  }
+  
+  .big{
+    width: 250px;
+    height: 150px;
+    transition: 0.5s;
+    margin: -10px 20px;
+  }
+  
+  .big:hover{
+    transform: scale(1.5);
+  }
+
+
+  .pic3{
+    margin:10px 20px 0px 60px;
+    color:#AC6B6B;
+    font-size: 20px;
+  }
+
+  .quiz{
+    margin-right: 120px;
+  }
+
+
+
+
+
+
+
+  
+
+  
+
+
+
